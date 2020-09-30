@@ -10,6 +10,7 @@
 }
 .hr-style {
     display: flex;
+
     font-weight: 600;
 }
 .hr-style > hr {
@@ -17,4 +18,18 @@
     color: black;
     background-color: black;
     height: 1px;
+}
+.popUpLogIn {
+    display: flex;
+    padding: 5px;
+    background: #ffffff;
+    border: 1px solid #c7c7c7;
+    margin-top: 10px;
+    border-radius: 57px;
+}
+.popUp {
+    flex-basis: 70%;
+}
+.popUpLogIn > img {
+    margin-left: 5%;
 }

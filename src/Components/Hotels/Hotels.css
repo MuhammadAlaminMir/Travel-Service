@@ -1,0 +1,14 @@
+.card {
+    margin: 7px;
+    border: none;
+    line-height: 1;
+}
+.img {
+    margin: 5px;
+}
+.price {
+    display: flex;
+}
+.price > p {
+    width: 40%;
+}

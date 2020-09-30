@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import DateTime from '../Date/DataTime';
 import DestinationDetails from '../DestinationDetails/DestinationDetails';
 import Header from '../Header/Header';
@@ -81,20 +81,22 @@ const Booking = () => {
                                 <span>To:</span>
                                 <DateTime />
                             </div>
-                            <Button
-                                className=" d-flex justify-content-center"
-                                style={{
-                                    width: '100%',
-                                    height: '44px',
+                            <Link to="/hotel/1">
+                                <Button
+                                    className=" d-flex justify-content-center"
+                                    style={{
+                                        width: '100%',
+                                        height: '44px',
 
-                                    background: '#F9A51A',
+                                        background: '#F9A51A',
 
-                                    fontWeight: '700',
-                                    borderRadius: ' 5px',
-                                }}
-                            >
-                                Start Booking
-                            </Button>
+                                        fontWeight: '700',
+                                        borderRadius: ' 5px',
+                                    }}
+                                >
+                                    Start Booking
+                                </Button>
+                            </Link>
                         </Form>
                     </div>
                 </div>

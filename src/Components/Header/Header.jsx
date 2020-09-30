@@ -31,7 +31,7 @@ const Header = () => {
                     <Nav className="ml-auto">
                         <span className="link">
                             <Link to="/home">
-                                <span className="color">News</span>
+                                <span className="color">home</span>
                             </Link>
                         </span>
                         <span className="link">
@@ -45,17 +45,20 @@ const Header = () => {
                             </Link>
                         </span>
                     </Nav>
-                    <button
-                        style={{
-                            width: '104px',
-                            height: '44px',
 
-                            background: '#F9A51A',
-                            borderRadius: ' 5px',
-                        }}
-                    >
-                        <span className="color">Login</span>
-                    </button>
+                    <Link to="/login">
+                        <button
+                            style={{
+                                width: '104px',
+                                height: '44px',
+
+                                background: '#F9A51A',
+                                borderRadius: ' 5px',
+                            }}
+                        >
+                            <span className="color">Login</span>
+                        </button>
+                    </Link>
                 </Navbar.Collapse>
             </Navbar>
         </div>
