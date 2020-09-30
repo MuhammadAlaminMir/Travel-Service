@@ -1,0 +1,13 @@
+.home {
+    background: linear-gradient(rgb(133, 104, 99), rgb(121, 113, 138));
+
+    background-size: cover;
+}
+.container {
+    color: white;
+}
+@media only screen and (min-width: 700px) {
+    .home {
+        height: 100vh;
+    }
+}

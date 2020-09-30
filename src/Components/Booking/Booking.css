@@ -1,0 +1,32 @@
+#booking {
+    background: linear-gradient(rgb(133, 104, 99), rgb(121, 113, 138));
+
+    background-size: cover;
+}
+.body {
+    margin-top: 10vh;
+}
+.form {
+    background-color: white;
+    padding: 15px;
+    color: black;
+}
+.label {
+    color: black;
+}
+.date {
+    display: flex;
+    font-weight: 700;
+    width: 100%;
+}
+.date > span {
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+@media only screen and (min-width: 700px) {
+    #booking {
+        height: 100vh;
+    }
+}

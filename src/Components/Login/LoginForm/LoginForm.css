@@ -1,0 +1,16 @@
+.login-form {
+    color: black;
+    margin-top: 10vh;
+}
+.check-filed {
+    display: flex;
+}
+.check-box {
+    flex-basis: 50%;
+    font-weight: 600;
+}
+.forget-password {
+    flex-basis: 50%;
+    color: #f9a51a;
+    text-align: right;
+}

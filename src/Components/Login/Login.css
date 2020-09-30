@@ -1,0 +1,20 @@
+.link {
+    margin: 10px;
+}
+.color {
+    color: black;
+    font-weight: 700;
+}
+.container {
+    color: black;
+}
+.hr-style {
+    display: flex;
+    font-weight: 600;
+}
+.hr-style > hr {
+    width: 47%;
+    color: black;
+    background-color: black;
+    height: 1px;
+}

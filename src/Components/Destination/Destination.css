@@ -1,0 +1,17 @@
+.img-card {
+    float: left;
+    width: 32%;
+    margin-left: 1%;
+    position: relative;
+}
+@media only screen and (max-width: 600px) {
+    .img-card {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+.img-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+}
